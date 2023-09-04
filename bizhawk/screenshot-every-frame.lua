@@ -1,5 +1,5 @@
 frame_num = 0
-fn_format = "Screenshots/%d.png"
+fn_format = "Screenshots/%04d.png"
 while true do
     frame_num = frame_num + 1
     filename = string.format(fn_format, frame_num)
