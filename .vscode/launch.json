@@ -1,0 +1,156 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'image_misc'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=image_misc",
+                    "--package=image_misc"
+                ],
+                "filter": {
+                    "name": "image_misc",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'image_misc'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=image_misc",
+                    "--package=image_misc"
+                ],
+                "filter": {
+                    "name": "image_misc",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'alttpr_sprites'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=alttpr_sprites",
+                    "--package=image_misc"
+                ],
+                "filter": {
+                    "name": "alttpr_sprites",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'alttpr_sprites'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=alttpr_sprites",
+                    "--package=image_misc"
+                ],
+                "filter": {
+                    "name": "alttpr_sprites",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bydey_categories'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bydey_categories",
+                    "--package=image_misc"
+                ],
+                "filter": {
+                    "name": "bydey_categories",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bydey_categories'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bydey_categories",
+                    "--package=image_misc"
+                ],
+                "filter": {
+                    "name": "bydey_categories",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'tam_tourneys'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=tam_tourneys",
+                    "--package=image_misc"
+                ],
+                "filter": {
+                    "name": "tam_tourneys",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'tam_tourneys'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=tam_tourneys",
+                    "--package=image_misc"
+                ],
+                "filter": {
+                    "name": "tam_tourneys",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
